@@ -10,6 +10,32 @@
             <column name="name">Vasya</column>
             <column name="email">vasya@mail.com</column>
         </insert>
+        <insert tableName="users">
+            <column name="user_id">019624d5-c194-7b40-9295-a6ff3e78a1bd</column>
+            <column name="name">Petya</column>
+            <column name="email">petya@mail.com</column>
+        </insert>
+
+        <insert tableName="users">
+            <column name="user_id">01962502-d502-727a-ad63-2c37fe6bf4f7</column>
+            <column name="name">Petya</column>
+            <column name="email">petya@mail.com</column>
+        </insert>
+        <insert tableName="users">
+            <column name="user_id">01962503-2d13-7469-8919-1e8ca2a4bcaa</column>
+            <column name="name">Petya</column>
+            <column name="email">petya@mail.com</column>
+        </insert>
+        <insert tableName="users">
+            <column name="user_id">01962503-6203-7bbd-893e-94443f8e45f3</column>
+            <column name="name">Petya</column>
+            <column name="email">petya@mail.com</column>
+        </insert>
+        <insert tableName="users">
+            <column name="user_id">01962503-b319-767a-b027-062fbcc6e68d</column>
+            <column name="name">Petya</column>
+            <column name="email">petya@mail.com</column>
+        </insert>
         <insert tableName="orders">
             <column name="order_id">043eceef-43fb-4f26-9585-350306f529a6</column>
             <column name="id_user">643e2777-8cb8-446b-b1d1-5bb56679744d</column>
@@ -18,21 +44,21 @@
             <column name="status">accepted</column>
         </insert>
         <insert tableName="orders">
-            <column name="order_id">043eceef-43fb-4f26-9585-350306f529a6</column>
+            <column name="order_id">043eceef-43fb-4f26-9585-350306f529a5</column>
             <column name="id_user">643e2777-8cb8-446b-b1d1-5bb56679744d</column>
             <column name="product_name">salt</column>
             <column name="product_prise">20</column>
             <column name="status">accepted</column>
         </insert>
         <insert tableName="orders">
-            <column name="order_id">043eceef-43fb-4f26-9585-350306f529a6</column>
+            <column name="order_id">043eceef-43fb-4f26-9585-350306f529a4</column>
             <column name="id_user">643e2777-8cb8-446b-b1d1-5bb56679744d</column>
             <column name="product_name">potato</column>
             <column name="product_prise">120</column>
             <column name="status">accepted</column>
         </insert>
         <insert tableName="orders">
-            <column name="order_id">043eceef-43fb-4f26-9585-350306f529a6</column>
+            <column name="order_id">043eceef-43fb-4f26-9585-350306f529a3</column>
             <column name="id_user">643e2777-8cb8-446b-b1d1-5bb56679744d</column>
             <column name="product_name">beef_pulp</column>
             <column name="product_prise">460</column>

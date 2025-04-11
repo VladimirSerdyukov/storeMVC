@@ -17,22 +17,5 @@
                 <constraints nullable="false"/>
             </column>
         </createTable>
-        <createTable tableName="orders">
-            <column name="order_id" type="UUID">
-                <constraints primaryKey="true" nullable="false" unique="false"/>
-            </column>
-            <column name="id_user" type="UUID">
-                <constraints nullable="false"/>
-            </column>
-            <column name="product_name" type="UUID">
-                <constraints nullable="false"/>
-            </column>
-            <column name="product_prise" type="integer">
-                <constraints nullable="false"/>
-            </column>
-            <column name="status" type="varchar(10)">
-                <constraints nullable="false"/>
-            </column>
-        </createTable>
     </changeSet>
 </databaseChangeLog>
