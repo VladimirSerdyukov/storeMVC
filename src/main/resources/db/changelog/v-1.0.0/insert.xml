@@ -4,39 +4,11 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
-    <changeSet id="insert" author="SV">
-        <insert tableName="users">
-            <column name="user_id">643e2777-8cb8-446b-b1d1-5bb56679744d</column>
-            <column name="name">Vasya</column>
-            <column name="email">vasya@mail.com</column>
-        </insert>
-        <insert tableName="orders">
-            <column name="order_id">043eceef-43fb-4f26-9585-350306f529a6</column>
-            <column name="id_user">643e2777-8cb8-446b-b1d1-5bb56679744d</column>
-            <column name="product_name">sugar</column>
-            <column name="product_prise">80</column>
-            <column name="status">accepted</column>
-        </insert>
-        <insert tableName="orders">
-            <column name="order_id">043eceef-43fb-4f26-9585-350306f529a6</column>
-            <column name="id_user">643e2777-8cb8-446b-b1d1-5bb56679744d</column>
-            <column name="product_name">salt</column>
-            <column name="product_prise">20</column>
-            <column name="status">accepted</column>
-        </insert>
-        <insert tableName="orders">
-            <column name="order_id">043eceef-43fb-4f26-9585-350306f529a6</column>
-            <column name="id_user">643e2777-8cb8-446b-b1d1-5bb56679744d</column>
-            <column name="product_name">potato</column>
-            <column name="product_prise">120</column>
-            <column name="status">accepted</column>
-        </insert>
-        <insert tableName="orders">
-            <column name="order_id">043eceef-43fb-4f26-9585-350306f529a6</column>
-            <column name="id_user">643e2777-8cb8-446b-b1d1-5bb56679744d</column>
-            <column name="product_name">beef_pulp</column>
-            <column name="product_prise">460</column>
-            <column name="status">accepted</column>
+    <changeSet id="insert_v-1-0-0" author="SV">
+        <insert tableName="book">
+            <column name="title" value="War and Peace"/>
+            <column name="author" value="Lev Nikolaevich Tolstoy"/>
+            <column name="publicationYear" value="1896"/>
         </insert>
     </changeSet>
 </databaseChangeLog>
