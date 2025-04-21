@@ -7,7 +7,7 @@
     <changeSet id="create_table_book_v-1-0-0" author="SV">
         <createTable tableName="book">
             <!--Создаем поля -->
-            <column name="user_id" type="int" autoIncrement="true">
+            <column name="id" type="int" autoIncrement="true">
                 <constraints primaryKey="true" nullable="false" unique="true"/>
             </column>
             <column name="title" type="varchar(255)">
@@ -16,7 +16,7 @@
             <column name="author" type="varchar(255)">
                 <constraints nullable="false"/>
             </column>
-            <column name="publicationYear" type="int">
+            <column name="publication_year" type="int">
                 <constraints nullable="false"/>
             </column>
         </createTable>

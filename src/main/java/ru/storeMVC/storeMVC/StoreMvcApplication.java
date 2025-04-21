@@ -7,7 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class StoreMvcApplication {
 
 	public static void main(String[] args) {
-		System.out.println("Start app!");
 		SpringApplication.run(StoreMvcApplication.class, args);
 	}
 

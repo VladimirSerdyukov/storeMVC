@@ -8,7 +8,7 @@
         <insert tableName="book">
             <column name="title" value="War and Peace"/>
             <column name="author" value="Lev Nikolaevich Tolstoy"/>
-            <column name="publicationYear" value="1896"/>
+            <column name="publication_year" value="1896"/>
         </insert>
     </changeSet>
 </databaseChangeLog>
