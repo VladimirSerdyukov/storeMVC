@@ -1,0 +1,49 @@
+databaseChangeLog:
+- changeSet:
+      id: insert_v-1.0.0
+      author: VS
+      comment: "Тестовое наполнение таблиц базы данных"
+      changes:
+        - insert:
+            tableName: employee
+            columns:
+              - column:
+                  name: first_name
+                  value: "Name Surname"
+              - column:
+                  name: position
+                  value: "worker"
+              - column:
+                  name: salary
+                  value: 75000
+              - column:
+                  name: department
+                  value: 1
+
+        - insert:
+            tableName: employee
+            columns:
+              - column:
+                  name: first_name
+                  value: "Name1 Surname1"
+              - column:
+                  name: position
+                  value: "worker1"
+              - column:
+                  name: salary
+                  value: 75000
+              - column:
+                  name: department
+                  value: 1
+        - insert:
+            tableName: department
+            columns:
+              - column:
+                  name: name
+                  value: "HR Deportment"
+        - insert:
+            tableName: department
+            columns:
+              - column:
+                  name: name
+                  value: "Logistic Deportment"

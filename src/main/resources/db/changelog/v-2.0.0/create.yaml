@@ -1,0 +1,55 @@
+databaseChangeLog:
+- changeSet:
+      id: v-1.0.0
+      author: SV
+      changes:
+        - createTable:
+            tableName: employee
+            columns:
+              - column:
+                  name: id
+                  type: int
+                  autoIncrement: true
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: employee_id
+              - column:
+                  name: first_name
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  constraints:
+                    nullable: false
+                  name: position
+                  type: varchar(255)
+              - column:
+                  constraints:
+                    nullable: false
+                  name: salary
+                  type: int
+              - column:
+                  constraints:
+                    nullable: false
+                    foreignKeyName: department_id
+                  name: department
+                  type: int
+
+        - createTable:
+            tableName: department
+            columns:
+              - column:
+                  autoIncrement: true
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: department_id
+                  name: id
+                  type: int
+              - column:
+                  constraints:
+                    nullable: false
+                  name: name
+                  type: varchar(255)
+
